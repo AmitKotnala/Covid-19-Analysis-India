@@ -1,5 +1,12 @@
 ##  <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/126ceca9-e69e-43b4-851a-9de69526d082" width="48" height="48"> COVID-19-Analysis
+
+## Introduction
+COVID-19, caused by SARS-CoV-2, is a global pandemic respiratory illness since 2019. It ranges from mild to severe symptoms, affecting all aspects of life. Preventive measures include vaccination, masks, and distancing. Research and collaboration are key in managing its spread.
+
+## Problem Aimed to Solve
+
 This project aims to analyze the COVID-19 pandemic using publicly available data. The project includes a Jupyter notebook with Python code to extract, clean, and visualize COVID-19 data from various sources. Additionally, the project provides a dashboard to explore the data interactively.
+
 ##  <img src="https://user-images.githubusercontent.com/106439762/181935629-b3c47bd3-77fb-4431-a11c-ff8ba0942b63.gif" width="48" height="48"> **User's Manual**
 
 | Files/Folder| Description |
@@ -14,23 +21,23 @@ This project aims to analyze the COVID-19 pandemic using publicly available data
 
 ##  <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/8e952995-c32d-4703-a9dd-92d1914cc6d9"  width="48" height="48"> Analysis
    
-### o	Highest number of confirmed and deceased cases were seen in Maharashtra.
+#### o	Highest number of confirmed and deceased cases were seen in Maharashtra.
 
 <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/76644cc3-ed14-4172-8957-3c0f2d7b79a4" width="600" >
 
-### o	October month had the highest number of total confirmed cases.
+#### o	October month had the highest number of total confirmed cases.
 
 <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/de470e60-0c1a-48d3-9424-96354b0e298c" width="700" >
 
-### o	Highest Vaccination rate observed in Sikkim.
+#### o	Highest Vaccination rate observed in Sikkim.
 
 <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/2930d151-66db-4238-b596-1ace0541ff6b" width="700" >
 
-### o	Lowest Vaccination rate is observed in Uttar Pradesh.
+#### o	Lowest Vaccination rate is observed in Uttar Pradesh.
     
-### o	Dadra and Nagar Haveli has the highest Recovery Rate.
+#### o	Dadra and Nagar Haveli has the highest Recovery Rate.
     
-### o	October has the Highest number of deceased cases.
+#### o	October has the Highest number of deceased cases.
     
  <br>       
  
@@ -39,26 +46,26 @@ This project aims to analyze the COVID-19 pandemic using publicly available data
 
 
 
-### 1. Import the data from API using the requests library.
+#### 1. Import the data from API using the requests library.
 
     
-### 2. The imported data was in JSON format hence we used JSON library to read the data.
+#### 2. The imported data was in JSON format hence we used JSON library to read the data.
 
 <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/7243d01e-9b32-43b6-9ae4-b3f6ba3ba9a8" width="1000" >
     
-### 3. We looked for null values and replaced them with zero, looking for duplicates.
+#### 3. We looked for null values and replaced them with zero, looking for duplicates.
     
-### 4. Stated analyzing the data by using pandas functions like group by, sort_values, etc.
+#### 4. Stated analyzing the data by using pandas functions like group by, sort_values, etc.
     
-### 5. Used nested 'for' loops to extract the relevant data from the nested dictionary.
+#### 5. Used nested 'for' loops to extract the relevant data from the nested dictionary.
 
 <img src="https://github.com/Sannidhi-Shetty2/COVID-19-Analysis/assets/62684303/6331248c-c475-4797-a680-89fd8465a082" width="1000" >
     
-### 6. Extracted the individual state data from the data frame in CSV format and imported data into MySQL.
+#### 6. Extracted the individual state data from the data frame in CSV format and imported data into MySQL.
     
-### 7. Aggregated the distribution by month and week wise for each state.
+#### 7. Aggregated the distribution by month and week wise for each state.
     
-### 8. Imported the aggregated data into Excel for further Analysis.
+#### 8. Imported the aggregated data into Excel for further Analysis.
     
 
 
